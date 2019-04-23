@@ -14,6 +14,7 @@ class MainTable: UIViewController {
     var url = "https://api.stackexchange.com/2.2/questions?order=asc&site=stackoverflow"
     var questions = [Question]()
     private let refreshControl = UIRefreshControl()
+    var nothing: Any? = nil
     
     @IBOutlet weak var table: UITableView!
     
