@@ -7,25 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27B5AD4E40277597BD08F9E5 /* Pods_SOPostDisplay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E935CE09F2A1ACB8DCEDAE9E /* Pods_SOPostDisplay.framework */; };
 		846C6285226AD51D000526F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C6284226AD51D000526F7 /* AppDelegate.swift */; };
-		846C6287226AD51D000526F7 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C6286226AD51D000526F7 /* RootViewController.swift */; };
-		846C6289226AD51D000526F7 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C6288226AD51D000526F7 /* DataViewController.swift */; };
-		846C628B226AD51D000526F7 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C628A226AD51D000526F7 /* ModelController.swift */; };
 		846C628E226AD51D000526F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C628C226AD51D000526F7 /* Main.storyboard */; };
 		846C6290226AD51F000526F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846C628F226AD51F000526F7 /* Assets.xcassets */; };
 		846C6293226AD51F000526F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846C6291226AD51F000526F7 /* LaunchScreen.storyboard */; };
+		846C629B226E57E3000526F7 /* MainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C629A226E57E3000526F7 /* MainTable.swift */; };
+		846C629D226E580A000526F7 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C629C226E580A000526F7 /* Question.swift */; };
+		846C629F226E5B6C000526F7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C629E226E5B6C000526F7 /* API.swift */; };
+		846C62A1226E86AA000526F7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846C62A0226E86AA000526F7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		48EC34207B0E6DA0A7F16636 /* Pods-SOPostDisplay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPostDisplay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SOPostDisplay/Pods-SOPostDisplay.debug.xcconfig"; sourceTree = "<group>"; };
+		552EC0D650139B4752D79160 /* Pods-SOPostDisplay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SOPostDisplay.release.xcconfig"; path = "Pods/Target Support Files/Pods-SOPostDisplay/Pods-SOPostDisplay.release.xcconfig"; sourceTree = "<group>"; };
 		846C6281226AD51D000526F7 /* SOPostDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOPostDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846C6284226AD51D000526F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		846C6286226AD51D000526F7 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		846C6288226AD51D000526F7 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		846C628A226AD51D000526F7 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		846C628D226AD51D000526F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846C628F226AD51F000526F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846C6292226AD51F000526F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846C6294226AD51F000526F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846C629A226E57E3000526F7 /* MainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTable.swift; sourceTree = "<group>"; };
+		846C629C226E580A000526F7 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		846C629E226E5B6C000526F7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		846C62A0226E86AA000526F7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = "/Volumes/HDD 1/Documents/xCodeTests/SOPostDisplay/SOPostDisplay/DetailViewController.swift"; sourceTree = "<absolute>"; };
+		E935CE09F2A1ACB8DCEDAE9E /* Pods_SOPostDisplay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SOPostDisplay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27B5AD4E40277597BD08F9E5 /* Pods_SOPostDisplay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +51,8 @@
 			children = (
 				846C6283226AD51D000526F7 /* SOPostDisplay */,
 				846C6282226AD51D000526F7 /* Products */,
+				8E36CD85DFF775B7D09E3CB5 /* Pods */,
+				CF14EDB623B0171C7110A81D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,15 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				846C6284226AD51D000526F7 /* AppDelegate.swift */,
-				846C6286226AD51D000526F7 /* RootViewController.swift */,
-				846C6288226AD51D000526F7 /* DataViewController.swift */,
-				846C628A226AD51D000526F7 /* ModelController.swift */,
+				846C629C226E580A000526F7 /* Question.swift */,
+				846C629E226E5B6C000526F7 /* API.swift */,
 				846C628C226AD51D000526F7 /* Main.storyboard */,
+				846C629A226E57E3000526F7 /* MainTable.swift */,
+				846C62A0226E86AA000526F7 /* DetailViewController.swift */,
 				846C628F226AD51F000526F7 /* Assets.xcassets */,
 				846C6291226AD51F000526F7 /* LaunchScreen.storyboard */,
 				846C6294226AD51F000526F7 /* Info.plist */,
 			);
 			path = SOPostDisplay;
+			sourceTree = "<group>";
+		};
+		8E36CD85DFF775B7D09E3CB5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48EC34207B0E6DA0A7F16636 /* Pods-SOPostDisplay.debug.xcconfig */,
+				552EC0D650139B4752D79160 /* Pods-SOPostDisplay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF14EDB623B0171C7110A81D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E935CE09F2A1ACB8DCEDAE9E /* Pods_SOPostDisplay.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846C6297226AD51F000526F7 /* Build configuration list for PBXNativeTarget "SOPostDisplay" */;
 			buildPhases = (
+				BCE0164ECC158E5986A0E8AF /* [CP] Check Pods Manifest.lock */,
 				846C627D226AD51D000526F7 /* Sources */,
 				846C627E226AD51D000526F7 /* Frameworks */,
 				846C627F226AD51D000526F7 /* Resources */,
+				CFD5723ACD56A95C8786CBDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,15 +165,55 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BCE0164ECC158E5986A0E8AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SOPostDisplay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CFD5723ACD56A95C8786CBDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SOPostDisplay/Pods-SOPostDisplay-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SOPostDisplay/Pods-SOPostDisplay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846C627D226AD51D000526F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846C6287226AD51D000526F7 /* RootViewController.swift in Sources */,
-				846C628B226AD51D000526F7 /* ModelController.swift in Sources */,
-				846C6289226AD51D000526F7 /* DataViewController.swift in Sources */,
+				846C629D226E580A000526F7 /* Question.swift in Sources */,
 				846C6285226AD51D000526F7 /* AppDelegate.swift in Sources */,
+				846C62A1226E86AA000526F7 /* DetailViewController.swift in Sources */,
+				846C629F226E5B6C000526F7 /* API.swift in Sources */,
+				846C629B226E57E3000526F7 /* MainTable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +357,7 @@
 		};
 		846C6298226AD51F000526F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48EC34207B0E6DA0A7F16636 /* Pods-SOPostDisplay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +376,7 @@
 		};
 		846C6299226AD51F000526F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 552EC0D650139B4752D79160 /* Pods-SOPostDisplay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
